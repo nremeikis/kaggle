@@ -22,7 +22,7 @@ public class RandomForestClassifier{
     private static DecisionForest dforest;
     private static Data trainData;
     private static Data testData;
-	private final static String trainDataPath="data/amazon/data/train.csv";
+	private final static String trainDataPath="data/amazon/data/train.csv1";
 	private final static String testDataPath="data/amazon/data/test.csv";
 	private final static String resultDataPath="data/amazon/results/results.csv";
 	public static void builClassifier() {
