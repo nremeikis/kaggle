@@ -33,6 +33,7 @@ public class RandomForestClassifier{
         treeBuilder.setM(m);
         dforest = foresBuilder.build(50);
 		dforest = foresBuilder.build(60);
+		dforest = foresBuilder.build(70);
 	}
 	
 	public static void testClassifier() {
