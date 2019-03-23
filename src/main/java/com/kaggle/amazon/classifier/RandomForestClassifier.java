@@ -32,6 +32,7 @@ public class RandomForestClassifier{
         SequentialBuilder foresBuilder = new SequentialBuilder(rng, treeBuilder, trainData.clone());
         treeBuilder.setM(m);
         dforest = foresBuilder.build(50);
+		dforest = foresBuilder.build(60);
 	}
 	
 	public static void testClassifier() {
